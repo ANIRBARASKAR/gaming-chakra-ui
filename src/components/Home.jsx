@@ -48,7 +48,7 @@ export default function Home() {
     alignItems={'center'}
     direction={['column','row']}
     >
-       <Image src={img5} h={["40","400"]} filter={"hue-rotate(-130deg)"}/>
+       <Image src={img5} h={["40","400"]} filter={"hue-rotate(-130deg)"} />
 
        <Text
        letterSpacing={"widest"}
@@ -81,7 +81,7 @@ const MyCarousel = () => {
     >
 
 <Box w="full" h={'100vh'}>
-  <Image src={img1}/>
+  <Image src={img1} h={'full'} w={"full"} objectFit={"cover"}/>
   <Heading 
   bgColor={"blackAlpha.600"}
   color={"white"}
@@ -93,7 +93,7 @@ const MyCarousel = () => {
 
 
 <Box w="full" h={'100vh'}>
-  <Image src={img2}/>
+  <Image src={img2} h={'full'} w={"full"} objectFit={"cover"}/>
   <Heading 
   bgColor={"whiteAlpha.900"}
   color={"black"}
@@ -105,7 +105,7 @@ const MyCarousel = () => {
 </Box>
 
 <Box w="full" h={'100vh'}>
-  <Image src={img3}/>
+  <Image src={img3} h={'full'} w={"full"} objectFit={"cover"}/>
   <Heading 
   bgColor={"blackAlpha.600"}
   color={"white"}
@@ -117,7 +117,7 @@ const MyCarousel = () => {
 </Box>
 
 <Box w="full" h={'100vh'}>
-  <Image src={img4}/>
+  <Image src={img4} h={'full'} w={"full"} objectFit={"cover"}/>
   <Heading 
   bgColor={"blackAlpha.600"}
   color={"white"}
